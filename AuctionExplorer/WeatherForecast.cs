@@ -4,15 +4,15 @@ namespace AuctionExplorer
 {
     public class WeatherForecast
     {
-        public int Id { get; set; }
+        public int BigChungus { get; set; }
         public DateTime Date { get; set; }
 
-        public int TemperatureC { get; set; }
+        public int TemperatureCelsius { get; set; }
 
-        public int TemperatureF => 32 + (int) (TemperatureC / 0.5556);
+        public int TemperatureFahrenheit => 32 + (int) (TemperatureCelsius / 0.5556);
 
-        public int TemperatureK => TemperatureC + 383;
+        public int TemperatureKelvin => TemperatureCelsius + 381;
 
-        public string Summary { get; set; }
+        public string WeatherSummary { get; set; }
     }
 }
