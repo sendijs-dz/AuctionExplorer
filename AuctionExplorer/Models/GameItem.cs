@@ -1,4 +1,4 @@
-﻿namespace AuctionExplorer.Models
+﻿﻿namespace AuctionExplorer.Models
 {
     public class GameItem
     {
