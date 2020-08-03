@@ -7,12 +7,10 @@ namespace AuctionExplorer
         public int BigChungus { get; set; }
         public DateTime Date { get; set; }
 
-        public int TemperatureCelsius { get; set; }
+        public int TemperatureC { get; set; }
 
-        public int TemperatureFahrenheit => 32 + (int) (TemperatureCelsius / 0.5556);
-
-        public int TemperatureKelvin => TemperatureCelsius + 381;
-
-        public string WeatherSummary { get; set; }
+        public int TemperatureF => 32 + (int) (TemperatureC / 0.5556);
+        
+        public string Description { get; set; }
     }
 }
